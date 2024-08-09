@@ -1,5 +1,9 @@
 body {
-    margin: 0;
-    background-color: blanchedalmond;
+    font: normal 80% arial;
+    background: rgb(255, 241, 220);
+    color: rgb(65, 65, 65); 
+}
+
+h1 {
     text-align: center;
 }
