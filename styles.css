@@ -12,9 +12,10 @@ header {
     text-align: center;
 }
 
-p {
-    text-align: left; /* Aligns all paragraphs to the left */
-    margin-bottom: 1em; /* Adds space between all paragraphs */
+/* Override for About Me Section Paragraphs */
+#about p {
+    text-align: left;
+    margin-bottom: 1em;
 }
 
 nav ul {
@@ -42,7 +43,7 @@ nav ul li a {
 
 /* Override for Home Section Header */
 .hero h1 {
-    font-size: 3em; /* Size of "Henry Tappa" */
+    font-size: 3em;
     font-weight: bold;
 }
 
