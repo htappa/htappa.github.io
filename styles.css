@@ -55,12 +55,20 @@ nav ul li a {
     margin-bottom: 15;
 }
 
+#resume iframe {
+    display: block;
+    margin-bottom: 20px; /* Adds space below the iframe */
+}
+
 .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
     background: #007BFF;
     color: #fff;
-    padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
+    text-align: center;
+    margin-top: 10px; /* Adds space above the button if needed */
 }
 
 .cta-button:hover {
