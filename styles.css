@@ -85,6 +85,39 @@ section {
     border-radius: 5px;
 }
 
+/* Centering and left-aligning list items within each skill category */
+.skills-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.skill-category {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center; /* Center the content within the skill-category */
+}
+
+.skill-category ul {
+    list-style-position: inside; /* Ensures bullets are aligned with the text */
+    display: inline-block; /* Makes the list behave like an inline element */
+    text-align: left; /* Left-aligns the text inside the list */
+    margin: 0 auto; /* Centers the list within the skill-category */
+    padding-left: 0; /* Removes default padding to control spacing */
+}
+
+.skill-category li {
+    margin-bottom: 0.5em; /* Adds space between list items */
+}
+
+/* Styling for nested lists */
+.skill-category ul ul {
+    padding-left: 20px; /* Adds indentation for nested lists */
+    list-style-type: circle; /* Changes bullet style for nested lists */
+}
+
 .experience-list {
     margin-top: 20px;
 }
@@ -183,4 +216,16 @@ footer {
 
 #contact-form button:hover {
     background: #0056b3;
+}
+
+/* Adjustments to list item spacing */
+ul {
+    list-style-position: outside; /* Positions bullet points outside the text */
+    padding-left: 20px; /* Ensures bullets are properly spaced from the left edge */
+    margin-left: 0; /* No additional left margin needed */
+}
+
+li {
+    text-align: left; /* Ensures text is aligned to the left */
+    margin-bottom: 0.5em; /* Adds space between list items */
 }
